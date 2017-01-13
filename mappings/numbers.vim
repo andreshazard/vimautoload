@@ -13,6 +13,7 @@ function! mappings#numbers#cycle_numbering() abort
 endfunction
 
 "Cycle transparency
+let g:transparent = 1
 function! mappings#numbers#cycle_transparent() abort
    if g:transparent
         colorscheme janah
